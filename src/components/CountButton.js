@@ -1,4 +1,5 @@
-import { Button, Typography } from "@mui/material";
+import CountButtonClass from '../App.css';
+import { Button, Typography } from "@mui/material"; 
 import { useState } from 'react';
 import countapi from 'countapi-js';
 
@@ -13,17 +14,24 @@ export const CountButton = () => {
 
     return (
         <div>
-            <Button 
+            <Button
+                className={CountButtonClass}
                 variant='contained'
+                style={{
+                    margin: '20px 0',
+                    backgroundColor: '#5c3977',
+                    fontWeight: '600',
+                    borderRadius: '0',
+                }}
                 onClick={() => {
                     handleClick();
                 }}
             >
-                Click to add
-            </Button>
-            <Typography>
-                Number of clicks {hits}
-            </Typography>
+                Click to hit
+            </Button>{ hits !== '' ? <Typography>
+                Number of hits: {hits}
+            </Typography> : <Typography><br /></Typography>
+            }
         </div>
     )
 }
