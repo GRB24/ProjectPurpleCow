@@ -29,7 +29,7 @@ export const CountButton = () => {
             >
                 Click to hit
             </Button>{ hits !== '' ? <Typography>
-                Number of hits: {hits}
+                Number of Hits: {hits}
             </Typography> : <Typography><br /></Typography>
             }
         </div>
