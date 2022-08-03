@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 40vh;
+  height: 80vh;
   display: flex;
   background: linear-gradient(to bottom, #5c3977 0%,#5c3977 50%,#000000 50%,white 50%,white 100%);
   background-size: cover;

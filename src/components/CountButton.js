@@ -18,7 +18,7 @@ export const CountButton = () => {
                 className={CountButtonClass}
                 variant='contained'
                 style={{
-                    margin: '20px 0',
+                    margin: '50px 0',
                     backgroundColor: '#5c3977',
                     fontWeight: '600',
                     borderRadius: '0',

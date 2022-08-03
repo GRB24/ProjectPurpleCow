@@ -10,7 +10,7 @@ function App() {
         style={{
           border: '1px solid #cdc3d5',
           borderRadius: '15px',
-          padding: '10px 10px 40px 10px', 
+          padding: '40px 5px 70px 5px', 
           backgroundColor: 'white',
           width: '580px'
         }}
